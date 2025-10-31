@@ -3204,7 +3204,7 @@ loadedCode()
 local Atlas = (library or createLibrary)()
 
 local Window = Atlas:CreateWindow({Name = "Islands v3 - Chasesdd ["..Status.." Version]";Color = Color3.fromRGB(135,135,255);Version = ScriptVersion;ConfigFolder = 'Project_Z_Islands_Settings';Bind = "RightShift";})
-task.spawn(function() local UserInputService = game:GetService("UserInputService") local gui = nil
+
 
 
 
@@ -5813,4 +5813,3 @@ end)
 
 Window:Notify("Script injected into " ..GetOwner(Island) .. "'s Island!")
 Window:Notify('Script Successfully Loaded!')
-
